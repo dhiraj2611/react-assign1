@@ -1,0 +1,66 @@
+.App{
+    background: #77A1D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom,#79CBCA, #c76992 ,#E684AE );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom,#79CBCA,#c76992, #E684AE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:900px;
+
+}
+.head{
+        text-align: center;
+        text-shadow :2px 2px 2px aqua;
+}
+.function{
+      background-color: rgb(123, 200, 200);
+      border: 2px solid black;
+      height: 60px;
+      width: 300px;
+      text-align: center;
+      border-radius: 60px ;
+      position: absolute;
+      top: 150px;
+      left: 250px;
+      
+      
+ }
+ .function:hover{
+    background-color: aqua;
+ }
+
+.FuncCont{
+    background-color: aqua;
+    border: 2px solid black;
+    height: 250px;
+    width: 450px;
+    padding: 20px;
+    text-align: center;
+    border-radius:25px ;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+.class{
+    background-color: rgb(123, 200, 200);
+    border: 2px solid black;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    border-radius: 60px ;
+    position: absolute;
+    top: 150px;
+    right: 250px;
+}
+.class:hover{
+    background-color: aqua;
+}
+.ClassCont{
+    background-color: rgb(216, 129, 216);
+    border: 2px solid black;
+    height: 250px;
+    width: 450px;
+    padding: 20px;
+    text-align: center;
+    border-radius:25px ;
+    position: absolute;
+    top: 300px;
+    right: 150px;
+}
